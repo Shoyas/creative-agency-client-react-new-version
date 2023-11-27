@@ -1,0 +1,26 @@
+.img-size{
+    margin: 50px;
+    width: 100px;
+    height: 36px;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .img-size{
+        margin: 30px;
+    }
+    
+}
+@media (max-width: 425px) {
+    .img-size{
+        margin: 20px;
+        height: 25px;
+    }
+}
+@media (max-width: 320px) {
+    .img-size{
+        margin: 20px;
+        width: 70px;
+    }
+}
