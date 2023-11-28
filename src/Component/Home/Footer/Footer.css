@@ -1,0 +1,46 @@
+.contact-form{
+  margin: 90px auto;
+}
+.footer-content{
+    background-color: #FBD062;
+    margin-top: 50px;
+}
+.copyRight{
+    padding-bottom: 20px;
+}
+.footer-tag{
+   margin-top: 90px;
+   margin-left: 200px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .footer-tag {
+        margin-left: 115px;
+    }
+    
+  }
+@media (max-width: 425px) {
+    .footer-tag {
+        margin-left: 10px;
+    }
+    .footer-tag>h3{
+        font-size: 1.5rem;
+    }
+    .footer-tag>p{
+        font-size: 1rem;
+    }
+  }
+@media (max-width: 320px) {
+    .footer-tag {
+        margin-left: 10px;
+    }
+    .footer-tag>h3{
+        font-size: 1.2rem;
+    }
+    .footer-tag>p{
+        font-size: 0.8rem;
+    }
+  }

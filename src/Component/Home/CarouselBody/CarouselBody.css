@@ -1,0 +1,20 @@
+.carousel-body-section{
+    background-color: #111430;
+    height : '50vh';
+}
+
+/* Responsive */
+@media (max-width: 2560px) {
+    .carousel-body-section{
+        background-color: #111430;
+        height : '50vh';
+    }
+    
+  }
+@media (max-width: 1440px) {
+    .carousel-body-section{
+        background-color: #111430;
+        height : '85vh';
+    }
+    
+  }

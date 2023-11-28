@@ -1,0 +1,45 @@
+.service-img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+.service-margin{
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid black;
+}
+.service-margin:hover{
+    box-shadow: 0 0 15px;
+    cursor: pointer;
+}
+
+
+/* Responsive */
+@media (max-width: 425px) {
+  .service-title{
+    font-size: 0.8rem;
+    margin-left: -15px;
+    margin-right: 0px;
+  }
+  .service-description{
+    font-size: 0.7rem;
+    margin-left: -15px;
+    margin-right: 0px;
+  }
+  
+}
+@media (max-width: 320px) {
+  .service-title{
+    font-size: 0.7rem;
+    margin-left: -25px;
+    margin-right: 0px;
+  }
+  .service-description{
+    font-size: 0.5rem;
+    margin-left: -25px;
+    margin-right: 0px;
+  }
+}
