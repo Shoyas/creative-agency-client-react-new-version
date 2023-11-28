@@ -10,8 +10,8 @@ const Navigation = () => {
           </div>
           <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li><Link to="/home">Home</Link></li>
-            <li><a>Dashboard</a></li>
-            <li><a>Our Portfolio</a></li>
+            <li><Link to="/dashboard">Dashboard</Link></li>
+            <li><Link to="/our-portfolio">Our Portfolio</Link></li>
             <li><Link to="/our-team">Our Team</Link></li>
             <li><Link to="/contact-us">Contact US</Link></li>
           </ul>
@@ -23,14 +23,14 @@ const Navigation = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><Link to="/home">Home</Link></li>
-          <li><a>Dashboard</a></li>
-          <li><a>Our Portfolio</a></li>
+          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/our-portfolio">Our Portfolio</Link></li>
           <li><Link to="/our-team">Our Team</Link></li>
           <li><Link to="/contact-us">Contact US</Link></li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Login</a>
+        <Link to="/login" className="btn">Login</Link>
       </div>
     </div>
     );

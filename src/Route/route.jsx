@@ -3,6 +3,8 @@ import App from "../App";
 import Home from "../Component/Home/Home";
 import ContactUs from "../Component/ContactUs/ContactUs";
 import OurTeam from "../Component/OurTeam/OurTeam";
+import OurPortfolio from "../Component/OurPortfolio/OurPortfolio";
+import Login from "../Component/Login/Login";
 
 const router = createBrowserRouter([
     {
@@ -10,20 +12,28 @@ const router = createBrowserRouter([
       element: <App/>,
       children: [
         {
-            path: '/',
-            element: <Home/>
+          path: '/',
+          element: <Home/>
         },
         {
-            path: '/home',
-            element: <Home/>
+          path: '/home',
+          element: <Home/>
         },
         {
-            path: '/contact-us',
-            element: <ContactUs/>
+          path: '/contact-us',
+          element: <ContactUs/>
         },
         {
-            path: '/our-team',
-            element: <OurTeam/>
+          path: '/our-team',
+          element: <OurTeam/>
+        },
+        {
+          path: '/our-portfolio',
+          element: <OurPortfolio/>
+        },
+        {
+          path: '/login',
+          element: <Login/>
         },
       ]
     

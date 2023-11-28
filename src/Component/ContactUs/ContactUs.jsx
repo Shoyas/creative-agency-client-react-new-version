@@ -6,7 +6,7 @@ import "./ContactUs.css";
 const ContactUs = () => {
     return (
         <div className="md: container md: mx-auto">
-            <Navigation/>
+            <Navigation/> 
             <div className="contact-us-filed">
                 <h1 className="text-3xl text-center pt-10">How can we help you ?</h1>
                 <div className="mt-20 text-center">
