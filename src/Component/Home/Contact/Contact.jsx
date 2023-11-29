@@ -13,6 +13,7 @@ const Contact = () => {
   const onSubmitContact = (data) => {
     console.log(data);
     history("/home");
+    alert("Thank You for contact with us", data);
   };
   return (
     <>
