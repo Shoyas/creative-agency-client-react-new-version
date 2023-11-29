@@ -4,8 +4,7 @@
 
 Features:
 
--
-- This site has two portions, the Client panel, and the Admin panel.
+- This site has two portions, the Client panel, and the Admin panel. All of the pages are fully responsive.
 
 - Clients can give their feedback, orders but they can't access the sensitive area of this site.
 
