@@ -2,3 +2,25 @@
     background-color: #FBD062; 
     height: "95vh"
 }
+
+/* Responsive */
+@media (max-width: 425px) {
+    .card-body>h2{
+        font-size: 0.6rem;
+        margin-left: -26px;
+    }
+    .card-body>p{
+        font-size: 0.5rem;
+        margin-left: -26px;
+    }
+  }
+  @media (max-width: 320px) {
+    .card-body>h2{
+        font-size: 0.4rem;
+        margin-left: -31px;
+    }
+    .card-body>p{
+        font-size: 0.3rem;
+        margin-left: -31px;
+    }
+  }

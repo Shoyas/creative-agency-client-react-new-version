@@ -4,7 +4,6 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-
 const firebaseConfig = {
   apiKey: "AIzaSyD8vW-nNo0iRCJiR2Kt9iT4SxBFb10qll4",
   authDomain: "creative-agency-reform-client.firebaseapp.com",
@@ -16,4 +15,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 export default app;

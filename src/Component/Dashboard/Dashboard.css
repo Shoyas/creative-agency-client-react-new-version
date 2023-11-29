@@ -1,0 +1,19 @@
+.dashboard-tagline>h3{
+    margin-left: 80px; 
+    margin-top: 50px;
+    color: #DC3545;
+}
+
+.dashboard-field>h3{
+    margin-left: 30%;
+    margin-top: 64px;
+    color: #DC3545;
+}
+
+/* Responsive */
+@media (max-width: 320px) {
+    .dashboard-field>h3{
+        margin-left: 39%;
+    }
+  }
+

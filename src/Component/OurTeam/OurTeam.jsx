@@ -31,7 +31,7 @@ const OurTeam = () => {
                     <div className="card-body">
                         <h2 className="card-title">Kala Chan</h2>
                         <p>Web Developer</p>
-                    </div>
+                    </div> 
                 </div>
                 <motion.div 
                     initial={{x: 100}}
