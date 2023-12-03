@@ -36,6 +36,3 @@ Features:
 
 - https://creative-agency-reform-client.web.app/
 
-## My Resume link
-
-- link
