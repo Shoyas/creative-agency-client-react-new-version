@@ -6,7 +6,7 @@ const AuthProviders = ({ children }) => {
   const [loggedInUser, setLoggedInUser] = useState({});
   const [loading, setLoading] = useState(true);
 
-  return (
+  return (  
     <div>
       <AuthContext.Provider
         value={[loggedInUser, setLoggedInUser, loading, setLoading]}

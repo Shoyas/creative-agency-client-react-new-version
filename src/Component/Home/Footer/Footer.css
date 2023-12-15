@@ -1,5 +1,6 @@
 .contact-form{
-  margin: 90px auto;
+  margin-top: 90px;
+  width: 90%;
 }
 .footer-content{
     background-color: #FBD062;
@@ -10,7 +11,7 @@
 }
 .footer-tag{
    margin-top: 90px;
-   margin-left: 200px;
+   margin-left: 50px;
 }
 
 
@@ -18,7 +19,7 @@
 
 @media (max-width: 768px) {
     .footer-tag {
-        margin-left: 115px;
+        margin-left: 50px;
     }
     
   }
